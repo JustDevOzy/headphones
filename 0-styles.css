@@ -1,0 +1,26 @@
+body{
+    background:#979797;
+    margin: 0;
+    padding: 0;
+}
+.navbar-menu{
+    display: flex;
+    flex-direction: row;
+    margin: auto 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    gap:200px;
+
+}
+.nav-item{
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+   font-family: Source Sans Pro; 
+   color: #fff;
+}
