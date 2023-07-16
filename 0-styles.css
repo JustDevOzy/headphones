@@ -33,3 +33,15 @@ a:hover{
     margin: 250px 80px;
     color: #fff;
 }
+.main h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.main h3{
+    margin-top:0;
+}
+.btn{
+    width:20%;
+
+    border-radius: 22px;
+}
