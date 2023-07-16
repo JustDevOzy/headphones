@@ -1,6 +1,6 @@
 body{
     background-color:#29303D;
-    background-image: url(./Images/girl.png);
+    background-image: url(./Images/headphones_hero_1.jpg);
     margin: 0;
     padding: 0;
 }
@@ -41,10 +41,18 @@ a:hover{
     margin-top:0;
 }
 .btn{
-    padding: 10px 20px;
+    padding: 15px 25px;
     background-color:#FF6565;
     color:#fff;
     border:1px solid #FF6565;
     border-radius: 22px;
+    margin: 30px 0;
 
+}
+.main-text{
+   width: 500px;
+   word-wrap: break-word;
+   margin: 20px 400px;
+   
+ 
 }
