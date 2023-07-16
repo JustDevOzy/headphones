@@ -1,5 +1,6 @@
 body{
-    background:#979797;
+    background-color:#29303D;
+    background-image: url(./Images/girl.png);
     margin: 0;
     padding: 0;
 }
@@ -23,4 +24,12 @@ body{
     font-weight: 700;
    font-family: Source Sans Pro; 
    color: #fff;
+}
+a:hover{
+    color: #FF6565;
+}
+.main{
+    text-align: center;
+    margin: 250px 80px;
+    color: #fff;
 }
