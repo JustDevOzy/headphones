@@ -41,7 +41,9 @@ a:hover{
     margin-top:0;
 }
 .btn{
-    width:20%;
-
-    border-radius: 22px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color:#FF6565;
+    color:#fff;
+    
 }
