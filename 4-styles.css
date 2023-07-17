@@ -65,6 +65,17 @@
      margin: 30px 0;
 
  }
+ .btn:hover{
+    background-color: #fff;
+    color:#FF6565;
+    cursor: pointer;
+ }
+ .btn2{
+    background-color: #fff;
+    color: #FF6565;
+    cursor: pointer;
+    
+ }
 
  .main-text {
      width: 600px;
@@ -159,12 +170,13 @@
      background-repeat: no-repeat;
      width: 100%;
      height: 700px;
+    
  }
 
  .result-text2 {
      text-align: center;
      color: #fff;
-     margin-top: 120px;
+     
 
  }
 
@@ -253,3 +265,84 @@
      font-size: 16px;
      color: #555;
  }
+
+
+ /* WHAT-TO-DO */
+ @keyframes scaling {
+     0% {
+         transform: scale(1);
+     }
+
+     50% {
+         transform: scale(1.2);
+     }
+
+     100% {
+         transform: scale(1);
+     }
+ }
+.what-we-do-section-images{
+    animation: scaling 3s ease-in-out infinite;
+}
+
+@keyframes bouncing {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.result-image {
+    animation: bouncing 3s ease-in-out infinite;
+}
+
+@keyframes bouncing {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.btn2 {
+    animation: bouncing 3s ease-in-out infinite;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.btn {
+    animation: bouncing 3s ease-in-out infinite;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.header-logo, nav {
+    animation: fade-in 1s ease-in-out;
+}
