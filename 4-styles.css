@@ -1,0 +1,256 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-image: url(./Images/headphones_hero_1.jpg);
+     background-repeat: no-repeat;
+     background-position: cover;
+     margin: 0;
+     padding: 0;
+     min-height: 200vh; 
+ }
+
+ .navbar-menu {
+     display: flex;
+     flex-direction: row;
+     margin: auto 80px;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+ }
+
+ .nav {
+     display: flex;
+     gap: 200px;
+
+ }
+
+ .nav-item {
+     list-style-type: none;
+     justify-content: space-between;
+     font-size: 16px;
+     font-weight: 700;
+     font-family: Source Sans Pro;
+     color: #fff;
+ }
+
+ a:hover {
+     color: #FF6565;
+ }
+
+ .main {
+     text-align: center;
+     margin: 250px 80px;
+     color: #fff;
+ }
+
+ .main h2 {
+     font-size: 32px;
+     font-weight: bold;
+ }
+
+ .main h3 {
+     margin-top: 0;
+ }
+
+ .btn {
+     padding: 15px 25px;
+     background-color: #FF6565;
+     color: #fff;
+     border: 1px solid #FF6565;
+     border-radius: 22px;
+     margin: 30px 0;
+
+ }
+
+ .main-text {
+     width: 600px;
+     word-wrap: break-word;
+     margin: 20px 300px;
+ }
+
+ /* WHAT WE DO-SECTION */
+ .what-we-do-section {
+     text-align: center;
+     color: #071629;
+ }
+
+ .section-header h1 {
+     font-size: 32px;
+     font-weight: 700;
+
+     text-transform: capitalize;
+ }
+
+ .section-header p {
+     font-size: 16px;
+     line-height: 22px;
+     max-width: 600px;
+     word-wrap: break-word;
+     margin: 60px 400px;
+
+ }
+
+ .section2 {
+     display: flex;
+     margin-top: 90px;
+
+ }
+
+ .first-header h1 {
+     font-size: 20px;
+     margin-top: 20px;
+ }
+
+ .first-header p {
+     max-width: 500px;
+     word-wrap: break-word;
+     margin: 40px 80px;
+     line-height: 2em;
+     font-weight: 500;
+ }
+
+ .second-header h1 {
+     font-size: 20px;
+     margin-top: 20px;
+ }
+
+ .second-header p {
+     max-width: 500px;
+     word-wrap: break-word;
+     margin: 40px 80px;
+     line-height: 2em;
+     font-weight: 500;
+ }
+
+ .third-header h1 {
+     font-size: 20px;
+     margin-top: 40px;
+ }
+
+ .third-header p {
+     max-width: 500px;
+     word-wrap: break-word;
+     margin: 40px 80px;
+     line-height: 2em;
+     font-weight: 500;
+ }
+
+ .forth-header h1 {
+     font-size: 20px;
+     margin-top: 20px;
+ }
+
+ .forth-header p {
+     max-width: 500px;
+     word-wrap: break-word;
+     margin-top: 40px;
+     margin-inline: 50px;
+     line-height: 2em;
+     font-weight: 500;
+ }
+
+ /* RESULT SECTION */
+ .result-container {
+     background-image: url(./Images/headphones_hero_2.jpg);
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 700px;
+ }
+
+ .result-text2 {
+     text-align: center;
+     color: #fff;
+     margin-top: 120px;
+
+ }
+
+ .result-text2 h1 {
+     font-size: 32px;
+     font-weight: 700;
+
+ }
+
+ .result-text2 p {
+     font-size: 16px;
+     max-width: 600px;
+     word-wrap: break-word;
+     margin-top: 50px;
+     margin-inline: 400px;
+ }
+
+ .result-image {
+     display: flex;
+     margin: 200px 140px;
+     gap: 70px;
+
+ }
+
+ /* CONTACT US */
+
+
+ .form-sub-container {
+     display: flex;
+     flex-direction: column;
+     margin-top: 50px;
+     margin-left: 500px;
+ }
+
+ .form-text {
+     border-bottom: 1px solid #071629;
+     margin-bottom: 30px;
+     width: 50%;
+ }
+
+ .form-container h1 {
+     text-align: center;
+     font-size: 32px;
+     font-weight: 600;
+     margin-top: 60px;
+ }
+
+ .btn2 {
+     padding: 15px 20px;
+     background-color: #FF6565;
+     color: #fff;
+     border: 1px solid #FF6565;
+     border-radius: 22px;
+     margin: 30px 600px;
+
+ }
+
+ /* FOOTER */
+ .footer-container{
+    background-color: #071629;
+    width: 100%;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ }
+ .footer-image{
+    margin-left:30px;
+ }
+ .footer-icon{
+    display: flex;
+    align-items: center;
+    gap:30px;
+  
+    
+ }
+ .footer-icon img{
+    width: 25px;
+    margin-left: 10px;
+   
+    
+ }
+ .footer-text {
+     text-align: center;
+     margin-top: 10px;
+     font-size: 14px;
+     color: #555;
+ }
